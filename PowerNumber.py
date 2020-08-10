@@ -27,9 +27,6 @@ a = input().split()     #space separated input is converted to list containing e
 for i in range(n):      #converting all input strings in list to integers
     a[i] = int(a[i]) 
     for j in range(1, a[i] + 1):    #checking condition
-        if a[i] == 1:
-            print("Yes", end = ' ' )
-            break
         if a[i] == pow(j, j):
             print("Yes", end = ' ')
             break       #if one satisfies, then exit the inner loop
