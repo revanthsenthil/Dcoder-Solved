@@ -19,7 +19,7 @@ Hello World
 
 import java.util.*;
 
-class Dcoder
+class PrintHelloWorld
 {  
   public static void main(String args[])
   {  
