@@ -1,4 +1,4 @@
-"""
+/*
 Problem Description:
 Alice recently discovered programming.Help Alice to code her first Program.
 
@@ -13,7 +13,7 @@ Sample Input:
 
 Sample Output:
 Hello World
-"""
+*/
 
 // this is the first code that a programmer writes while starting a language
 
