@@ -19,7 +19,7 @@ Hello World
 
 import java.util.*;
 
-class PrintHelloWorld
+public class PrintHelloWorld
 {  
   public static void main(String args[])
   {  
