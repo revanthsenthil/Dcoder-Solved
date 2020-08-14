@@ -22,3 +22,17 @@ Sample Output:
 True
 """
 
+import math
+n = int(input())
+
+for i in range(n):
+    k = input().split()
+    hi = [int(x) for x in k]
+    a, b, c = hi
+    s = sum(hi)
+    semi = int(s / 2)   #semiperimeter
+    area = math.sqrt(semi * (semi - a) * (semi - b) * (semi - c))   #heron's formula
+    if area == s:
+        print(True)
+    else:
+        print(False)
