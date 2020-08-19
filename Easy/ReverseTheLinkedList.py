@@ -21,5 +21,5 @@ Sample Output:
 n = input().split()
 a = [int(x) for x in n[::-1]]
 
-for i in a:           # -1 is the first element after reversal and that is not included while printing
+for i in a[1:]:           # -1 is the first element after reversal and that is not included while printing
     print(i, end = " ")
