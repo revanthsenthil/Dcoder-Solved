@@ -22,7 +22,7 @@ Sample Output
 21st
 
 Constraints
-1 <= year <= 3000
+year is between 1 and 3000, both included
 
 """
 
